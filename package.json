@@ -1,0 +1,17 @@
+{
+  "name": "antigravity-discord-bot",
+  "version": "1.0.0",
+  "description": "Multi-functional Discord bot with Groq AI integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "groq-sdk": "^0.3.3",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
